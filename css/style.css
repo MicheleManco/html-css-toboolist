@@ -59,14 +59,63 @@ header {
  .lists {
      background-color: white;
  }
- .testo::before {
+ .fatto::before {
     content: ' \2611';
 }
+
+.nonfatto::before {
+    content: ' \2612';
+}
+
 
 .editorial {
     font-size: 10px;
     padding: 5px 9px;
     background-color: rgb(105, 194, 194) ;
+    color: white;
+    border-radius: 40%;
+    vertical-align: middle;
+}
+.q1goals {
+    font-size: 10px;
+    padding: 5px 9px;
+    background-color: rgb(152, 102, 192) ;
+    color: white;
+    border-radius: 40%;
+    vertical-align: middle;
+}
+
+.recruiting {
+    font-size: 10px;
+    padding: 5px 9px;
+    background-color: rgb(45, 175, 121) ;
+    color: white;
+    border-radius: 40%;
+    vertical-align: middle;
+}
+
+.mobile {
+    font-size: 10px;
+    padding: 5px 9px;
+    background-color: rgb(241, 158, 4) ;
+    color: white;
+    border-radius: 40%;
+    vertical-align: middle;
+}
+
+.website {
+    font-size: 10px;
+    padding: 5px 9px;
+    background-color: rgb(231, 118, 188) ;
+    color: white;
+    border-radius: 40%;
+    vertical-align: middle;
+}
+
+.sales {
+    font-size: 10px;
+    padding: 5px 9px;
+    background-color: rgb(128, 218, 25) ;
     color: white;
     border-radius: 40%;
     vertical-align: middle;
