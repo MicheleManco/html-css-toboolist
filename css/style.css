@@ -121,4 +121,7 @@ header {
     vertical-align: middle;
 }
 
+.altro::before {
+    content: ' \25BC';
+}
 
